@@ -1,0 +1,22 @@
+.place__paragraph-area {
+  padding: 0;
+  color:#ffffff;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.67;
+  font-weight: normal;
+}
+
+
+@media screen and (max-width: 768px) {
+  .place__paragraph-area {
+    font-size: 16px;
+    line-height: 1.63;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph-area {
+     margin: 0 16px 0 16px;
+   }
+}

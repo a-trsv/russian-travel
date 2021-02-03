@@ -1,0 +1,25 @@
+.photo-grid {
+  margin: 0 48px 0 48px; /* Сверху | Справа | Снизу | Слева */
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    grid-gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    margin: 0 24px 0 24px; /* Сверху | Справа | Снизу | Слева */
+    grid-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    margin: 0 16px 0 16px; /* Сверху | Справа | Снизу | Слева */
+  }
+}

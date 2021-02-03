@@ -1,0 +1,36 @@
+/* Woff2 для новых Браузеров */
+@font-face {
+  src: url(../vendor/fonts/Inter-Regular.woff2);
+  font-family: 'Inter';
+}
+
+@font-face {
+  src: url(../vendor/fonts/Inter-Bold.woff2);
+  font-family: 'Inter';
+  font-weight: bold;
+}
+
+@font-face {
+  src: url(../vendor/fonts/Inter-Italic.woff2);
+  font-family: 'Inter';
+  font-style: italic;
+}
+
+/* Woff для устаревших Браузеров */
+
+@font-face {
+  src: url(../vendor/fonts/Inter-Regular.woff);
+  font-family: 'Inter';
+}
+
+@font-face {
+  src: url(../vendor/fonts/Inter-Bold.woff);
+  font-family: 'Inter';
+  font-weight: bold;
+}
+
+@font-face {
+  src: url(../vendor/fonts/Inter-Italic.woff);
+  font-family: 'Inter';
+  font-style: italic;
+}
