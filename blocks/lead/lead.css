@@ -21,6 +21,6 @@
 
 @media screen and (max-width: 320px) {
   .lead {
-    margin: 48px 2px 0 2px; /* Сверху | Справа | Снизу | Слева */
+    margin: 48px 0px 0 0px; /* Сверху | Справа | Снизу | Слева */
   }
 }

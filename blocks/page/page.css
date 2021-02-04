@@ -3,4 +3,6 @@
   margin: 0 auto;
   min-width: 320px;
   max-width: 1280px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
