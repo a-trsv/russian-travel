@@ -1,5 +1,4 @@
 .cover {
-  max-width: 1184px;
   min-height: 740px;
   margin: 0 48px 0 48px; /* Сверху | Справа | Снизу | Слева */
   position: relative;

@@ -4,7 +4,6 @@
   align-items: center;
   margin: 0 auto;
   margin: 28px 48px 0 48px; /* Сверху | Справа | Снизу | Слева */
-  max-width: 1184px;
 }
 
 @media screen and (max-width: 768px) {

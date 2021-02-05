@@ -8,6 +8,7 @@
   font-size: 30px;
   font-weight: normal;
   font-family: 'Inter', Arial, sans-serif;
+  align-self: center;
 }
 
 @media screen and (max-width: 655px) {

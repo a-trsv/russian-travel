@@ -2,15 +2,12 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  align-items: center;
   margin: 56px 148px 0 148px; /* Сверху | Справа | Снизу | Слева */
-  max-width: 984px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
     margin: 48px 48px 0 48px; /* Сверху | Справа | Снизу | Слева */
-    max-width: 928px;
   }
 }
 
