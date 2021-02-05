@@ -1,8 +1,8 @@
 .lead {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   align-items: center;
-  justify-content: center;
   margin: 56px 148px 0 148px; /* Сверху | Справа | Снизу | Слева */
   max-width: 984px;
 }
@@ -10,17 +10,12 @@
 @media screen and (max-width: 1024px) {
   .lead {
     margin: 48px 48px 0 48px; /* Сверху | Справа | Снизу | Слева */
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
     margin: 48px 0 0 0; /* Сверху | Справа | Снизу | Слева */
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead {
-    margin: 48px 0px 0 0px; /* Сверху | Справа | Снизу | Слева */
   }
 }

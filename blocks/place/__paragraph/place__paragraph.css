@@ -1,7 +1,6 @@
 .place__paragraph {
   margin: 0;
   margin-bottom: 26px;
-  max-width: 484px;
  }
 
  .place__paragraph:last-child {
@@ -12,8 +11,5 @@
   .place__paragraph {
     margin-bottom: 25px;
   }
-
-  .place__paragraph:last-child {
-    margin-bottom: 0;
   }
 }
